@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select2</title>
+	<!-- CDN CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css"/>
+	<!-- CDN js -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+	
+</head>
+<body>
+	<div class="main_container">
+
+<!-- 			<div class="parameters" onclick="hideShow()">
+				<h3>Crit&egraveres de recherche <i class="glyphicon glyphicon-chevron-down"></i></h3>
+			</div> -->
+			
+			<div class="" id="hide">
+				<br>
+				<div class="form-group">
+					<label>Entreprise :</label>
+					<select class="select_big" id="company" multiple="multiple">
+						<option value="SS">Sopra-Steria</option>
+						<option value="AT">Atos</option>
+						<option value="UM">Umanis</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Localisation :</label>
+					<select class="select_big" id="localisation" multiple="multiple">
+						<option value="SS">Tours</option>
+						<option value="AT">Orléans</option>
+						<option value="UM">Bordeaux</option>
+					</select>			
+				</div>
+
+				<div class="form-group">
+					<label>Technologies utilisées :</label>
+					<select class="select_big" id="technology" multiple="multiple">
+						<option value="SS">Java - EE</option>
+						<option value="AT">Csharp</option>
+						<option value="UM">SQL</option>
+					</select>			
+				</div>
+
+				<div class="form-group">
+					<label>Technologies utilisées :</label>
+					<select class="select_small" id="promotion" multiple="multiple">
+						<option value="SS">2018</option>
+						<option value="AT">2017</option>
+						<option value="UM">2016</option>
+					</select>			
+				</div>
+
+				<div>
+					<form action="/action_page.php" method="post">
+						<label>Stage débouchant sur une embauche ?</label>
+						<input type="checkbox" id="admission" value="admission"><br>
+						<input type="submit" value="Rechercher">
+					</form>
+				</div>
+		
+		
+	<script type="text/javascript" src="form-search.js"></script>
+</body>
+</html>

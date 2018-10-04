@@ -1,0 +1,283 @@
+
+div.parameters {
+    text-align:center;
+}
+.espace {
+    margin-top: 20px;
+}
+div h3 i.glyphicon-chevron-down {
+    font-size: 75%;
+}
+
+div h3 i.glyphicon-chevron-up {
+    font-size: 75%;
+}
+
+div.critere-form {
+  font-size:15px;
+}
+
+label.control-label {
+    line-height: 320%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+label.centered {
+    text-align: right;
+}
+
+.material-switch {
+    top:-5px;
+}
+
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: rgb(36, 240, 14);
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background-color :#32d22d;
+    left: 20px;
+}
+
+.search_btn {
+    text-align: center;
+}
+
+.center{
+	text-align:center;
+}
+
+p  {
+	text-align:justify;
+}
+
+.droite{
+	text-align:right;
+}
+
+table{
+	border-spacing:0 10px;
+}
+
+.enteteOffres{
+	padding:0 10px;
+	margin:0 10px;
+}
+.blocOffres{
+	background-color:#f5F5F5;
+	color:#4e4e4e;
+	padding:10px;
+	margin:0 10px;
+	line-height:1;
+}
+
+.blocOffres:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);	
+}
+
+.blocOffres:hover a{
+	color:black;
+	text-decoration:none;
+}
+ 
+table thead{
+	background-color:#000;
+	color:#FFF;
+}
+.table thead tr th{
+		vertical-align:middle;
+}
+
+.text-small{
+	font-size: 80%;
+}
+
+.label{
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+.label-success {
+    background-color: #5cb85c;
+}
+.label-default {
+    background-color: #777;
+}
+.btn-info {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+	border-radius:4px;
+}
+.spanCenter {
+	display:table;
+	margin:10px auto;
+}
+
+.download{
+	padding:10px 0 10px 0;
+	
+	margin: 10px auto 15px auto;
+}
+
+.site-content h2{
+	margin:20px 20px 0 20px;
+}
+
+.divEntete{
+	margin:20px 0px;
+	padding:20px 0px;
+	border:1px solid #b9b9b9;
+	background-color:#F5F5F5;
+	border-radius:5px;
+}
+.divEntete span{
+	margin-right:10px;
+}
+.simpletext{
+	padding:.2em 0 .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #404040;
+	vertical-align: baseline;
+}
+
+p{
+	text-align:justify;
+}
+h3{
+	margin:20px 0;
+}
+
+.logo{
+	margin:auto;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+	border:none;
+}
+
+ul{
+	margin:0;
+}
+.navigationPages > li{
+	display:inline;
+}
+.navigationPages > li > a{
+	background-color:#F5F5F5;
+	padding:0 10px 0 10px;
+}
+.navigationPages > li > a:hover{
+	background-color:#F5F5F5;
+	padding:0 10px 0 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+	color:black;
+	text-decoration:none;
+}
+.navigationPages > li > a.pageActuelle{
+	background-color:#000;
+	color:#FFF;
+}
+
+.singlePost{
+	text-align:center;
+	font-size:75%;
+	margin-top:10px;
+}
+
+.singlePost a{
+	border:1px solid #b9B9B9;
+	border-radius:5px;
+}
+.singlePost .droite{
+	float:right;
+}
+.singlePost .gauche{
+	float:left;
+}
+
+.headerSortUp {  
+    background-color: #3399FF;
+	background-image: url(http://localhost/wordpress/wp-content/themes/argent/PP-inc/ico/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+} 
+.headerSortDown {  
+   
+	background-color: #3399FF;
+	background-image: url(http://localhost/wordpress/wp-content/themes/argent/PP-inc/ico/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+} 
+
+.warning-recherche {
+	text-align:center;
+	margin:20px;
+}
+.table > tbody > tr > td{
+	padding:3px;
+}
+thead input[type="submit"]{
+	color:#999;
+	padding:0;
+	font-size:70%;
+}
+thead a:hover{
+	color:#999;
+}
+th{
+	color:#999;
+}
+thead div{
+	padding:0;
+}

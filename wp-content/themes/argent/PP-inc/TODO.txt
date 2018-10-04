@@ -1,0 +1,12 @@
+
+- Est-ce qu'il est/sera possible d'ajouter un champs quelque part qui permettrai de pouvoir indiquer un lien ou déposer un logo pour les entreprises (de façon à agrémenter la liste des stages)? Le cas échéant, le faire et mettre à jour la liste des stages avec les logos correspondant.
+- Vérifier connexion + lien pour télécharger
+
+
+Et également :
+- s'assurer du bon fonctionnement du site après fusion,
+- s'assurer de la bonne tenue du CSS, de la lisibilité du code (commentaires...),
+- Changer les liens internes.
+
+
+m
